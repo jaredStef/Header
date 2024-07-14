@@ -6,6 +6,10 @@
 
 Customizable cell headers for Jupyter
 
+Headers is a Jupyter Lab plugin which allows users to create notebook cells with custom headers. Three built in buttons are provided: ! and % for IPython commands and %%spark. Custom buttons with new headers can be added. All built in headers have the keyboard shortcuts CMD + SHIFT followed by !, F5, and @ respectively. Commands are registered of the format "@jaredstef/headers:createCustomCell${index}" if the user wishes to map to custom buttons as well.
+
+This package can be found on npm titled "@jaredstef/headers". 
+
 ## Requirements
 
 - JupyterLab >= 4.0.0
